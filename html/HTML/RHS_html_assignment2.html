@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>RHS/Bugatti website</title>
+</head>
+<body>
+	<center>
+		<img src ="bugatti1.webp" alt ="Bugatti 1st" style ="width:1100px;hight:800px;">
+	</center>
+
+		<h4>Redefining speed since 1931<h4>
+
+		<h2>The new CHIRON Super Sport joins a famous<br>ancestral line of BUGATTI.<h2>
+
+		<h5><p>A thoroughbred pedigree which –since its<br> 
+		origins nine decades ago– combines brutal power and speed at their very best.</p>
+		<p>With the new CHIRON Super Sport,<br>BUGATTI is defining a new spectrum of speed and performance, 
+		<br>enriching the legacy of the Super Sport heritage.</p></h5>
+		<img src ="Bugatti2.jpg" alt ="Bugatti Super Sport" style ="width:100px;hight:400px;">
+
+	<div class="row">
+ 	<div class="column">
+   	 	<img src ="Bugatti2.jpg" alt ="Bugatti Super Sport" style ="width:100px;hight:400px;">
+ 	</div>
+ 	<div class="column">
+    		<img src ="Bugatti2.jpg" alt ="Bugatti Super Sport" style ="width:100px;hight:400px;">
+ 	</div>
+  	<div class="column">
+    		<img src ="Bugatti2.jpg" alt ="Bugatti Super Sport" style ="width:100px;hight:400px;">
+  	</div>
+	</div>
+
+	.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+	
+	<a href="https://www.bugatti.com/models/chiron-models/chiron-super-sport/">Bugatti Web Site</a>
+
+	<iframe width ="420" hight ="315" sec="https://www.youtube.com/watch?v=VdMEP9ScpUg"></iframe>
+
+</body>
+</html>

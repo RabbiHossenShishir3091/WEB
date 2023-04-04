@@ -1,0 +1,16 @@
+#designFromId2{
+	text-align:center;
+	background-color:purple;
+	color:yellow;
+}
+.designFromClass2{
+	text-align:left;
+	color:orange;
+	background-color:pink;
+}
+
+#designFromId2{
+	text-align:right;
+	color:yellow;
+	background-color:brown;
+}

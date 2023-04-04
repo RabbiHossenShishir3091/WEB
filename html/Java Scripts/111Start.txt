@@ -1,0 +1,14 @@
+<html>
+
+<head>
+	<title>JS Input</title>
+</head>
+<body>
+	<script type = "text/javascript">
+		
+		
+
+	</script>
+</body>
+
+</html>

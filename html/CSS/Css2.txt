@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>css2</title>
+	<style>
+	* {
+		text-align:left;
+		background-color:blue;
+		color:yellow;  
+	}
+	
+  </style>
+</head>
+<body>
+	brah!!!
+</body>
+</html>
